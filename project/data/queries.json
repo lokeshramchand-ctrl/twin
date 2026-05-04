@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What authentication method is used?",
+    "v1": "API keys",
+    "v2": "OAuth 2.0"
+  },
+  {
+    "question": "What is the token expiry time?",
+    "v1": "24 hours",
+    "v2": "12 hours"
+  },
+  {
+    "question": "What format does getUser return?",
+    "v1": "JSON",
+    "v2": "XML"
+  },
+  {
+    "question": "What database is used for user data?",
+    "v1": "PostgreSQL",
+    "v2": "MongoDB"
+  },
+  {
+    "question": "Which payment provider is used?",
+    "v1": "Stripe",
+    "v2": "Razorpay"
+  },
+  {
+    "question": "What currency is supported?",
+    "v1": "USD",
+    "v2": "INR"
+  },
+  {
+    "question": "How are refunds handled?",
+    "v1": "Manually",
+    "v2": "Automatically"
+  },
+  {
+    "question": "How many retry attempts are there?",
+    "v1": "3",
+    "v2": "5"
+  },
+  {
+    "question": "Where are delivery logs stored?",
+    "v1": "Redis",
+    "v2": "PostgreSQL"
+  },
+  {
+    "question": "Are push notifications supported?",
+    "v1": "No",
+    "v2": "Yes"
+  }
+]
