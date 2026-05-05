@@ -1,0 +1,80 @@
+{
+  "summary": {
+    "total_queries": 10,
+    "correct": 0,
+    "hallucination_rate": 1.0,
+    "avg_latency": 1.7270023107528687
+  },
+  "details": [
+    {
+      "question": "What authentication method is used?",
+      "expected": "OAuth 2.0",
+      "answer": "lokesh",
+      "correct": false,
+      "latency": 2.9353771209716797
+    },
+    {
+      "question": "What is the token expiry time?",
+      "expected": "12 hours",
+      "answer": "24 hours.",
+      "correct": false,
+      "latency": 2.3303070068359375
+    },
+    {
+      "question": "What format does getUser return?",
+      "expected": "XML",
+      "answer": "JSON format.",
+      "correct": false,
+      "latency": 2.3663628101348877
+    },
+    {
+      "question": "What database is used for user data?",
+      "expected": "MongoDB",
+      "answer": "PostgreSQL",
+      "correct": false,
+      "latency": 2.680135726928711
+    },
+    {
+      "question": "Which payment provider is used?",
+      "expected": "Razorpay",
+      "answer": "Stripe",
+      "correct": false,
+      "latency": 0.38856077194213867
+    },
+    {
+      "question": "What currency is supported?",
+      "expected": "INR",
+      "answer": "USD",
+      "correct": false,
+      "latency": 0.36446452140808105
+    },
+    {
+      "question": "How are refunds handled?",
+      "expected": "Automatically",
+      "answer": "Refunds are handled manually.",
+      "correct": false,
+      "latency": 0.4185175895690918
+    },
+    {
+      "question": "How many retry attempts are there?",
+      "expected": "5",
+      "answer": "3",
+      "correct": false,
+      "latency": 3.0366034507751465
+    },
+    {
+      "question": "Where are delivery logs stored?",
+      "expected": "PostgreSQL",
+      "answer": "Redis",
+      "correct": false,
+      "latency": 2.378582715988159
+    },
+    {
+      "question": "Are push notifications supported?",
+      "expected": "Yes",
+      "answer": "No.",
+      "correct": false,
+      "latency": 0.3711113929748535
+    }
+  ]
+}
