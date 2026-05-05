@@ -1,9 +1,11 @@
 from rag import load_index, rag_query
 
-index, chunks = load_index()
-
-print("✅ Index loaded. Ready for queries.")
+print("✅ Query system running (auto-reloads index)")
 
 while True:
     q = input("\nAsk: ")
+
+    # 🔥 Reload index EVERY time
+    index, chunks = load_index()
+
     print(rag_query(q, index, chunks))
