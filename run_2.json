@@ -3,78 +3,78 @@
     "total_queries": 10,
     "correct": 1,
     "hallucination_rate": 0.9,
-    "avg_latency": 1.4277567386627197
+    "avg_latency": 0.8907776832580566
   },
   "details": [
     {
       "question": "What authentication method is used?",
       "expected": "OAuth 2.0",
-      "answer": "Oauth 2.0",
+      "answer": "Authentication uses OAuth 2.0.",
       "correct": true,
-      "latency": 3.0790390968322754
+      "latency": 0.6820456981658936
     },
     {
       "question": "What is the token expiry time?",
       "expected": "12 hours",
       "answer": "24 hours.",
       "correct": false,
-      "latency": 2.8493857383728027
+      "latency": 0.4007077217102051
     },
     {
       "question": "What format does getUser return?",
       "expected": "XML",
       "answer": "JSON format",
       "correct": false,
-      "latency": 0.38623738288879395
+      "latency": 0.3859717845916748
     },
     {
       "question": "What database is used for user data?",
       "expected": "MongoDB",
-      "answer": "User data is stored in PostgreSQL.",
+      "answer": "PostgreSQL",
       "correct": false,
-      "latency": 0.41925692558288574
+      "latency": 3.722874641418457
     },
     {
       "question": "Which payment provider is used?",
       "expected": "Razorpay",
       "answer": "Stripe",
       "correct": false,
-      "latency": 0.3837573528289795
+      "latency": 0.37964725494384766
     },
     {
       "question": "What currency is supported?",
       "expected": "INR",
-      "answer": "USD",
+      "answer": "USD.",
       "correct": false,
-      "latency": 0.37392568588256836
+      "latency": 0.3782620429992676
     },
     {
       "question": "How are refunds handled?",
       "expected": "Automatically",
       "answer": "Refunds are handled manually.",
       "correct": false,
-      "latency": 0.41989564895629883
+      "latency": 0.4409220218658447
     },
     {
       "question": "How many retry attempts are there?",
       "expected": "5",
-      "answer": "3 times.",
+      "answer": "3",
       "correct": false,
-      "latency": 0.3942220211029053
+      "latency": 1.7020642757415771
     },
     {
       "question": "Where are delivery logs stored?",
       "expected": "PostgreSQL",
-      "answer": "Redis",
+      "answer": "Delivery logs are stored in Redis.",
       "correct": false,
-      "latency": 2.5153260231018066
+      "latency": 0.4471747875213623
     },
     {
       "question": "Are push notifications supported?",
       "expected": "Yes",
-      "answer": "No, push notifications are not supported.",
+      "answer": "No.",
       "correct": false,
-      "latency": 3.456521511077881
+      "latency": 0.3681066036224365
     }
   ]
 }

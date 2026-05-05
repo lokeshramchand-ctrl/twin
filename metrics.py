@@ -6,7 +6,7 @@ from rag import load_index, rag_query
 # CONFIG
 # =========================
 QUERY_FILE = "queries.json"
-RESULT_FILE = "run_1.json"
+RESULT_FILE = "run_3.json"
 
 # =========================
 # LOAD DATA
