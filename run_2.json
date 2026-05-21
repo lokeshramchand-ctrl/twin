@@ -1,0 +1,80 @@
+{
+  "summary": {
+    "total_queries": 10,
+    "correct": 1,
+    "hallucination_rate": 0.9,
+    "avg_latency": 0.8907776832580566
+  },
+  "details": [
+    {
+      "question": "What authentication method is used?",
+      "expected": "OAuth 2.0",
+      "answer": "Authentication uses OAuth 2.0.",
+      "correct": true,
+      "latency": 0.6820456981658936
+    },
+    {
+      "question": "What is the token expiry time?",
+      "expected": "12 hours",
+      "answer": "24 hours.",
+      "correct": false,
+      "latency": 0.4007077217102051
+    },
+    {
+      "question": "What format does getUser return?",
+      "expected": "XML",
+      "answer": "JSON format",
+      "correct": false,
+      "latency": 0.3859717845916748
+    },
+    {
+      "question": "What database is used for user data?",
+      "expected": "MongoDB",
+      "answer": "PostgreSQL",
+      "correct": false,
+      "latency": 3.722874641418457
+    },
+    {
+      "question": "Which payment provider is used?",
+      "expected": "Razorpay",
+      "answer": "Stripe",
+      "correct": false,
+      "latency": 0.37964725494384766
+    },
+    {
+      "question": "What currency is supported?",
+      "expected": "INR",
+      "answer": "USD.",
+      "correct": false,
+      "latency": 0.3782620429992676
+    },
+    {
+      "question": "How are refunds handled?",
+      "expected": "Automatically",
+      "answer": "Refunds are handled manually.",
+      "correct": false,
+      "latency": 0.4409220218658447
+    },
+    {
+      "question": "How many retry attempts are there?",
+      "expected": "5",
+      "answer": "3",
+      "correct": false,
+      "latency": 1.7020642757415771
+    },
+    {
+      "question": "Where are delivery logs stored?",
+      "expected": "PostgreSQL",
+      "answer": "Delivery logs are stored in Redis.",
+      "correct": false,
+      "latency": 0.4471747875213623
+    },
+    {
+      "question": "Are push notifications supported?",
+      "expected": "Yes",
+      "answer": "No.",
+      "correct": false,
+      "latency": 0.3681066036224365
+    }
+  ]
+}
