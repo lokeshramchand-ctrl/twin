@@ -1,0 +1,363 @@
+<metadata xml:lang="en"><Esri><CreaDate>20260601</CreaDate><CreaTime>05435600</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>FALSE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\ConvertCoordinateNotation" Date="20260529" Time="005659">ConvertCoordinateNotation E:\BatchJobs\Publish_Files\addrapn\Scratch.gdb\ADDRAPN_ALL_UNIQUE E:\BatchJobs\Publish_Files\ADDRAPN\Scratch.gdb\ADDRAPN_ALL_USNG # # SHAPE USNG # "PROJCS["NAD_1983_StatePlane_California_VI_FIPS_0406_Feet",GEOGCS["GCS_North_American_1983",DATUM["D_North_American_1983",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Lambert_Conformal_Conic"],PARAMETER["False_Easting",6561666.666666666],PARAMETER["False_Northing",1640416.666666667],PARAMETER["Central_Meridian",-116.25],PARAMETER["Standard_Parallel_1",32.78333333333333],PARAMETER["Standard_Parallel_2",33.88333333333333],PARAMETER["Latitude_Of_Origin",32.16666666666666],UNIT["Foot_US",0.3048006096012192]];-118608900 -91259500 3048.00609601219;0 1;0 1;3.28083333333333E-03;2;2;IsHighPrecision" GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]] INCLUDE_INVALID</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\Copy" Date="20260529" Time="005822">Copy E:\BatchJobs\Publish_Files\addrapn\Scratch.gdb\ADDRAPN_ALL_USNG E:\Data\Publish\Staging.gdb\ADDRAPN FeatureClass "Juisdiction 'CV domain' Juisdiction #;'Address Source' 'CV domain' 'Address Source' #;Placement_Location 'CV domain' Placement_Location #;'Address Type' 'CV domain' 'Address Type' #"</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\Copy" Date="20260601" Time="054358">Copy E:\Data\Publish\Staging.gdb\ADDRAPN E:\BatchJobs\DBConnections\garnet@warehouse@sangis.sde\SANGIS.ADDRAPN FeatureClass "Juisdiction 'CV domain' Juisdiction #;'Address Source' 'CV domain' 'Address Source' #;Placement_Location 'CV domain' Placement_Location #;'Address Type' 'CV domain' 'Address Type' #"</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddIndex" Date="20260601" Time="054402">AddIndex E:\BatchJobs\DBConnections\garnet@warehouse@sangis.sde\SANGIS.ADDRAPN ADDRNMBR ADDRAPN_ADDRNMBR NON_UNIQUE NON_ASCENDING</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddIndex" Date="20260601" Time="054403">AddIndex E:\BatchJobs\DBConnections\garnet@warehouse@sangis.sde\SANGIS.ADDRAPN ADDRFRAC ADDRAPN_ADDRFRAC NON_UNIQUE NON_ASCENDING</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddIndex" Date="20260601" Time="054405">AddIndex E:\BatchJobs\DBConnections\garnet@warehouse@sangis.sde\SANGIS.ADDRAPN ADDRPDIR ADDRAPN_ADDRPDIR NON_UNIQUE NON_ASCENDING</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddIndex" Date="20260601" Time="054410">AddIndex E:\BatchJobs\DBConnections\garnet@warehouse@sangis.sde\SANGIS.ADDRAPN ADDRNAME ADDRAPN_ADDRNAME NON_UNIQUE NON_ASCENDING</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddIndex" Date="20260601" Time="054412">AddIndex E:\BatchJobs\DBConnections\garnet@warehouse@sangis.sde\SANGIS.ADDRAPN ADDRPOSTD ADDRAPN_ADDRPOSTD NON_UNIQUE NON_ASCENDING</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddIndex" Date="20260601" Time="054415">AddIndex E:\BatchJobs\DBConnections\garnet@warehouse@sangis.sde\SANGIS.ADDRAPN ADDRSFX ADDRAPN_ADDRSFX NON_UNIQUE NON_ASCENDING</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddIndex" Date="20260601" Time="054417">AddIndex E:\BatchJobs\DBConnections\garnet@warehouse@sangis.sde\SANGIS.ADDRAPN ADDRUNIT ADDRAPN_ADDRUNIT NON_UNIQUE NON_ASCENDING</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddIndex" Date="20260601" Time="054420">AddIndex E:\BatchJobs\DBConnections\garnet@warehouse@sangis.sde\SANGIS.ADDRAPN ADDRJUR ADDRAPN_ADDRJUR NON_UNIQUE NON_ASCENDING</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddIndex" Date="20260601" Time="054426">AddIndex E:\BatchJobs\DBConnections\garnet@warehouse@sangis.sde\SANGIS.ADDRAPN ADDRZIP ADDRAPN_ADDRZIP NON_UNIQUE NON_ASCENDING</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddIndex" Date="20260601" Time="054428">AddIndex E:\BatchJobs\DBConnections\garnet@warehouse@sangis.sde\SANGIS.ADDRAPN ROADSEGID ADDRAPN_ROADSEGID NON_UNIQUE NON_ASCENDING</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddIndex" Date="20260601" Time="054434">AddIndex E:\BatchJobs\DBConnections\garnet@warehouse@sangis.sde\SANGIS.ADDRAPN APN ADDRAPN_APN NON_UNIQUE NON_ASCENDING</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddIndex" Date="20260601" Time="054436">AddIndex E:\BatchJobs\DBConnections\garnet@warehouse@sangis.sde\SANGIS.ADDRAPN ASOURCE ADDRAPN_ASOURCE NON_UNIQUE NON_ASCENDING</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddIndex" Date="20260601" Time="054440">AddIndex E:\BatchJobs\DBConnections\garnet@warehouse@sangis.sde\SANGIS.ADDRAPN X_COORD ADDRAPN_X_COORD NON_UNIQUE NON_ASCENDING</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddIndex" Date="20260601" Time="054444">AddIndex E:\BatchJobs\DBConnections\garnet@warehouse@sangis.sde\SANGIS.ADDRAPN Y_COORD ADDRAPN_Y_COORD NON_UNIQUE NON_ASCENDING</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddIndex" Date="20260601" Time="054446">AddIndex E:\BatchJobs\DBConnections\garnet@warehouse@sangis.sde\SANGIS.ADDRAPN STATE ADDRAPN_STATE NON_UNIQUE NON_ASCENDING</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddIndex" Date="20260601" Time="054449">AddIndex E:\BatchJobs\DBConnections\garnet@warehouse@sangis.sde\SANGIS.ADDRAPN PLACEMENT_LOCATION ADDRAPN_PLACEMENT_LOCATION NON_UNIQUE NON_ASCENDING</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddIndex" Date="20260601" Time="054455">AddIndex E:\BatchJobs\DBConnections\garnet@warehouse@sangis.sde\SANGIS.ADDRAPN COMMUNITY ADDRAPN_COMMUNITY NON_UNIQUE NON_ASCENDING</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddIndex" Date="20260601" Time="054458">AddIndex E:\BatchJobs\DBConnections\garnet@warehouse@sangis.sde\SANGIS.ADDRAPN ADDRESS_TYPE ADDRAPN_ADDRESS_TYPE NON_UNIQUE NON_ASCENDING</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddIndex" Date="20260601" Time="054502">AddIndex E:\BatchJobs\DBConnections\garnet@warehouse@sangis.sde\SANGIS.ADDRAPN ADDRAPNID ADDRAPN_ADDRAPNID NON_UNIQUE NON_ASCENDING</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddIndex" Date="20260601" Time="054505">AddIndex E:\BatchJobs\DBConnections\garnet@warehouse@sangis.sde\SANGIS.ADDRAPN PARCELID ADDRAPN_PARCELID NON_UNIQUE NON_ASCENDING</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddIndex" Date="20260601" Time="054510">AddIndex E:\BatchJobs\DBConnections\garnet@warehouse@sangis.sde\SANGIS.ADDRAPN USNG ADDRAPN_USNG NON_UNIQUE NON_ASCENDING</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddIndex" Date="20260601" Time="054512">AddIndex E:\BatchJobs\DBConnections\garnet@warehouse@sangis.sde\SANGIS.ADDRAPN ORIG_OID ADDRAPN_ORIG_OID NON_UNIQUE NON_ASCENDING</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddSpatialIndex" Date="20260601" Time="054530">AddSpatialIndex E:\BatchJobs\DBConnections\garnet@warehouse@sangis.sde\SANGIS.ADDRAPN 0 0 0</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\ChangePrivileges" Date="20260601" Time="054531">ChangePrivileges E:\BatchJobs\DBConnections\garnet@warehouse@sangis.sde\SANGIS.ADDRAPN SANGIS1 GRANT AS_IS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20260601" Time="080023">FeatureClassToFeatureClass E:\BatchJobs\DBConnections\garnet@warehouse@sangis.sde\Warehouse.SANGIS.ADDRAPN E:\share\data\DIVA_Data\PUBLIC_NEW_Data\RDW_Data_2026-06-01\Address_Points.gdb Address_Points # "ADDRNMBR "NUMBER" true true false 8 Double 8 38,First,#,E:\BatchJobs\DBConnections\garnet@warehouse@sangis.sde\Warehouse.SANGIS.ADDRAPN,ADDRNMBR,-1,-1;ADDRFRAC "FRACTION" true true false 3 Text 0 0,First,#,E:\BatchJobs\DBConnections\garnet@warehouse@sangis.sde\Warehouse.SANGIS.ADDRAPN,ADDRFRAC,0,2;ADDRPDIR "PREDIRECTION" true true false 2 Text 0 0,First,#,E:\BatchJobs\DBConnections\garnet@warehouse@sangis.sde\Warehouse.SANGIS.ADDRAPN,ADDRPDIR,0,1;ADDRNAME "NAME" true true false 30 Text 0 0,First,#,E:\BatchJobs\DBConnections\garnet@warehouse@sangis.sde\Warehouse.SANGIS.ADDRAPN,ADDRNAME,0,29;ADDRPOSTD "POST_DIRECTION" true true false 2 Text 0 0,First,#,E:\BatchJobs\DBConnections\garnet@warehouse@sangis.sde\Warehouse.SANGIS.ADDRAPN,ADDRPOSTD,0,1;ADDRSFX "SUFFIX" true true false 4 Text 0 0,First,#,E:\BatchJobs\DBConnections\garnet@warehouse@sangis.sde\Warehouse.SANGIS.ADDRAPN,ADDRSFX,0,3;ADDRUNIT "UNIT" true true false 8 Text 0 0,First,#,E:\BatchJobs\DBConnections\garnet@warehouse@sangis.sde\Warehouse.SANGIS.ADDRAPN,ADDRUNIT,0,7;ADDRJUR "JURISDICTION" true true false 2 Text 0 0,First,#,E:\BatchJobs\DBConnections\garnet@warehouse@sangis.sde\Warehouse.SANGIS.ADDRAPN,ADDRJUR,0,1;ADDRZIP "ZIP" true true false 5 Text 0 0,First,#,E:\BatchJobs\DBConnections\garnet@warehouse@sangis.sde\Warehouse.SANGIS.ADDRAPN,ADDRZIP,0,4;ROADSEGID "ROADSEGID" true true false 4 Long 0 10,First,#,E:\BatchJobs\DBConnections\garnet@warehouse@sangis.sde\Warehouse.SANGIS.ADDRAPN,ROADSEGID,-1,-1;APN "APN" true true false 10 Text 0 0,First,#,E:\BatchJobs\DBConnections\garnet@warehouse@sangis.sde\Warehouse.SANGIS.ADDRAPN,APN,0,9;ASOURCE "ASOURCE" true true false 1 Text 0 0,First,#,E:\BatchJobs\DBConnections\garnet@warehouse@sangis.sde\Warehouse.SANGIS.ADDRAPN,ASOURCE,0,0;X_COORD "X_COORD" true true false 8 Double 8 38,First,#,E:\BatchJobs\DBConnections\garnet@warehouse@sangis.sde\Warehouse.SANGIS.ADDRAPN,X_COORD,-1,-1;Y_COORD "Y_COORD" true true false 8 Double 8 38,First,#,E:\BatchJobs\DBConnections\garnet@warehouse@sangis.sde\Warehouse.SANGIS.ADDRAPN,Y_COORD,-1,-1;STATE "STATE" true false false 2 Text 0 0,First,#,E:\BatchJobs\DBConnections\garnet@warehouse@sangis.sde\Warehouse.SANGIS.ADDRAPN,STATE,0,1;PLACEMENT_LOCATION "PLACEMENT_LOCATION" true true false 1 Text 0 0,First,#,E:\BatchJobs\DBConnections\garnet@warehouse@sangis.sde\Warehouse.SANGIS.ADDRAPN,PLACEMENT_LOCATION,0,0;COMMUNITY "POSTAL_COMMUNITY" true true false 20 Text 0 0,First,#,E:\BatchJobs\DBConnections\garnet@warehouse@sangis.sde\Warehouse.SANGIS.ADDRAPN,COMMUNITY,0,19;ADDRESS_TYPE "ADDRESS_TYPE" true true false 1 Text 0 0,First,#,E:\BatchJobs\DBConnections\garnet@warehouse@sangis.sde\Warehouse.SANGIS.ADDRAPN,ADDRESS_TYPE,0,0;ADDRAPNID "ADDRAPNID" true true false 25 Text 0 0,First,#,E:\BatchJobs\DBConnections\garnet@warehouse@sangis.sde\Warehouse.SANGIS.ADDRAPN,ADDRAPNID,0,24;PARCELID "PARCELID" true true false 4 Long 0 10,First,#,E:\BatchJobs\DBConnections\garnet@warehouse@sangis.sde\Warehouse.SANGIS.ADDRAPN,PARCELID,-1,-1;USNG "USNG" true true false 255 Text 0 0,First,#,E:\BatchJobs\DBConnections\garnet@warehouse@sangis.sde\Warehouse.SANGIS.ADDRAPN,USNG,0,254;ORIG_OID "ORIG_OID" true true false 4 Long 0 10,First,#,E:\BatchJobs\DBConnections\garnet@warehouse@sangis.sde\Warehouse.SANGIS.ADDRAPN,ORIG_OID,-1,-1" #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\RepairGeometry" Date="20260601" Time="080034">RepairGeometry E:\share\data\DIVA_Data\PUBLIC_NEW_Data\RDW_Data_2026-06-01\Address_Points.gdb\Address_Points DELETE_NULL ESRI</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20260601" Time="160234">CopyFeatures F:\GIS\RDW\Production\SanGIS_FTP\Address_Points.gdb\Address_Points F:\GIS\RDW\Production\Download_Files\_Temp_Shapefiles\Address_Points\Address_Points.shp # # # #</Process></lineage><itemProps><itemLocation><linkage Sync="TRUE">file://\\PGISAVD3-1\GIS\RDW\Production\Download_Files\_Temp_Shapefiles\Address_Points\Address_Points.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation><imsContentType Sync="TRUE" export="False">002</imsContentType><itemName Sync="TRUE">Address_Points</itemName><nativeExtBox><westBL Sync="TRUE">6152307.000053</westBL><eastBL Sync="TRUE">6613087.990891</eastBL><southBL Sync="TRUE">1775442.363798</southBL><northBL Sync="TRUE">2129332.531345</northBL><exTypeCode Sync="TRUE">1</exTypeCode></nativeExtBox><itemSize Sync="TRUE">0.000</itemSize></itemProps><coordRef><type Sync="TRUE">Projected</type><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><csUnits Sync="TRUE">Linear Unit: Foot_US (0.304801)</csUnits><projcsn Sync="TRUE">NAD_1983_StatePlane_California_VI_FIPS_0406_Feet</projcsn><peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/3.5.0'&gt;&lt;WKT&gt;PROJCS[&amp;quot;NAD_1983_StatePlane_California_VI_FIPS_0406_Feet&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Lambert_Conformal_Conic&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,6561666.666666666],PARAMETER[&amp;quot;False_Northing&amp;quot;,1640416.666666667],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-116.25],PARAMETER[&amp;quot;Standard_Parallel_1&amp;quot;,32.78333333333333],PARAMETER[&amp;quot;Standard_Parallel_2&amp;quot;,33.88333333333333],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,32.16666666666666],UNIT[&amp;quot;Foot_US&amp;quot;,0.3048006096012192],AUTHORITY[&amp;quot;EPSG&amp;quot;,2230]]&lt;/WKT&gt;&lt;XOrigin&gt;-118608900&lt;/XOrigin&gt;&lt;YOrigin&gt;-91259500&lt;/YOrigin&gt;&lt;XYScale&gt;35979706.307677768&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.0032808333333333331&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;102646&lt;/WKID&gt;&lt;LatestWKID&gt;2230&lt;/LatestWKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml></coordRef></DataProperties><scaleRange><minScale>150000000</minScale><maxScale>5000</maxScale></scaleRange><SyncDate>20260601</SyncDate><SyncTime>16011900</SyncTime><ModDate>20260601</ModDate><ModTime>16011900</ModTime></Esri><mdLang><languageCode value="eng"/><countryCode value="USA" Sync="TRUE"/></mdLang><mdChar><CharSetCd value="004"/></mdChar><mdHrLv><ScopeCd value="005"/></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><mdDateSt Sync="TRUE">20260601</mdDateSt><mdStanName>ArcGIS Metadata</mdStanName><mdStanVer>1.0</mdStanVer><distInfo><distFormat><formatName Sync="TRUE">Shapefile</formatName></distFormat><distributor><distorCont><rpOrgName>SanGIS</rpOrgName><rpCntInfo><cntPhone><voiceNum tddtty="">(858) 874-7000</voiceNum></cntPhone><cntAddress addressType="both"><delPoint>5500 Overland Ave., Suite 310</delPoint><city>San Diego</city><adminArea>California</adminArea><postCode>92123</postCode><country>US</country><eMailAdd>webmaster@sangis.org</eMailAdd></cntAddress><cntHours>8:00 AM - 4:00 PM Monday thru Friday</cntHours><cntInstr>webmaster@sangis.org</cntInstr></rpCntInfo><role><RoleCd value="005"/></role><displayName>SanGIS</displayName><rpIndName>Data Librarian</rpIndName><rpPosName>Data Librarian</rpPosName></distorCont><distorOrdPrc><ordInstr>Data can be downloaded in multiple formats (FileGDB, Shapefile, CSV, GeoJSON and JSON) from the SanGIS Data Warehouse at https://gis-sangis1.hub.arcgis.com/pages/download-data
+
+Refer to SanGIS website (www.sangis.org) to obtain further information on mapping and data extraction services available from SanGIS.
+</ordInstr></distorOrdPrc></distributor><distTranOps><transSize Sync="TRUE">0.000</transSize></distTranOps></distInfo><dataIdInfo><idCitation><resTitle>ADDRAPN</resTitle><citRespParty><rpOrgName>SanGIS</rpOrgName><role><RoleCd value="006"/></role></citRespParty><presForm><PresFormCd value="005" Sync="TRUE"/><fgdcGeoform>vector digital data</fgdcGeoform></presForm></idCitation><idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P STYLE="margin:1 1 1 0;"&gt;&lt;SPAN&gt;SITUS address points within the County of San Diego with corresponding Assessor Parcel Number (APN). The dataset includes address fields, x y coordinates, US National Grid coordinates, address type, and placement location (e.g. structure or centroid) for each feature. These are SITUS addresses. That is, they refer to the officially assigned address for a tax parcel. They may not be the house or mailing address or the owner address of the property.&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;Address points in this layer are derived from two sources: The County of San Diego's Assessor's Office Master Property Record (MPR) and address points provided to SanGIS by the addressing authority in each jurisdiction (18 cities and the County of San Diego). Not all jurisdictions provide address points to SanGIS. SanGIS attempts to eliminate duplicate points so that only one address-APN combination is present for each parcel (although there may be multiple addresses on the property). Priority is given to the SanGIS address point over the one derived from the MPR under the assumption that the points from the addressing authority of each jurisidiction is more current. Address point source is indicated in the ASOURCE field.&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;SanGIS is in the process of updating address point locations to more accurately reflect the SITUS address. Where possible, address points are being located to the primary structure on the property. This is a long term, ongoing effort and many points have not yet been relocated. Address points are tagged with a placement location of 'Review' until they are reviewed and edited accordingly. The location of the address point is indicated in the PLACEMENT_LOCATION attribute. All points derived from the Assessor's MPR are placed at the centroid of the parcel.&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;Refer to field descriptions under Resources for a full listing.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs><idPurp>This dataset comprises SITUS address points (as opposed to owner or mailing addresses) for jurisdictions within the County of San Diego.  Addresses include the corresponding Assessor Parcel Number (APN), address type, placement location, and US National Grid (USNG) value.</idPurp><idCredit>SanGIS using legal recorded data provided by the County Assessors Office and addressing authorities from the 18 incorporated cities in the County.</idCredit><idStatus><ProgCd value="004"/></idStatus><idPoC><rpOrgName>SanGIS</rpOrgName><rpCntInfo><cntPhone><voiceNum tddtty="">(858) 874-7000</voiceNum></cntPhone><cntAddress addressType="both"><delPoint>5500 Overland Ave., Suite 310</delPoint><city>San Diego</city><adminArea>California</adminArea><postCode>92123</postCode><country>US</country><eMailAdd>webmaster@sangis.org</eMailAdd></cntAddress><cntInstr>webmaster@sangis.org</cntInstr></rpCntInfo><role><RoleCd value="007"/></role><rpIndName>Operations Manager</rpIndName></idPoC><resMaint><maintFreq><MaintFreqCd value="003"/></maintFreq><dateNext>2014-08-29T00:00:00</dateNext></resMaint><themeKeys><keyword>Address, Assessor Parcel Number (APN), location, SITUS</keyword></themeKeys><searchKeys><keyword>Addresses</keyword><keyword>Parcel Address</keyword><keyword>SITUS Address</keyword><keyword>Assessor Parcel Number (APN)</keyword><keyword>San Diego County</keyword><keyword>ADDRAPN</keyword><keyword>SanGIS</keyword></searchKeys><resConst><LegConsts><useLimit>Please acknowledge SanGIS as a source when SanGIS data are used in the preparation of reports, papers, publications, maps, and other products. This file may not be copied and distributed unless given writen consent by SanGIS.</useLimit></LegConsts></resConst><resConst><Consts><useLimit>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;Data is generalized and created for use in regional projects. Please refer to SanGIS data end user use agreement and disclaimer which is available on the SanGIS website (www.sangis.org).&lt;/SPAN&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN&gt;The address layer is not expected to be a complete inventory of every address in the County. Data is available only as provided to SanGIS. Addresses are SITUS address points - not structure or owner or mailing addresses. Apartment addresses are not included. Most &lt;/SPAN&gt;&lt;SPAN STYLE="font-size:12pt"&gt;condominium &lt;/SPAN&gt;&lt;SPAN&gt;and mobile home addresses are not resolved to the actual structure location.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</useLimit></Consts></resConst><dataLang><languageCode value="eng"/><countryCode value="USA" Sync="TRUE"/></dataLang><dataExt><tempEle><TempExtent><exTemp><TM_Instant><tmPosition date="unknown">2026-05-30T00:00:00</tmPosition></TM_Instant></exTemp></TempExtent></tempEle><exDesc>The spatial extent of this dataset is San Diego County.  The temporal extent is variable.
+Date published from SanGIS edit environment.
+</exDesc></dataExt><suppInfo>Please acknowledge SanGIS as a source when SanGIS data is used in the preparation of reports, papers, publications, maps, and other products.</suppInfo><envirDesc Sync="TRUE">Microsoft Windows Server 2016 Technical Preview Version 10.0 (Build 26100) ; Esri ArcGIS 13.5.5.57366</envirDesc><spatRpType><SpatRepTypCd value="001" Sync="TRUE"/></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="search"><westBL>-117.401365</westBL><eastBL>-116.104371</eastBL><northBL>33.470200</northBL><southBL>32.539180</southBL><exTypeCode>1</exTypeCode></GeoBndBox></geoEle></dataExt><placeKeys><keyword>California, County of San Diego, Carlsbad, Coronado, Chula Vista, Del Mar, El Cajon, Encinitas, Escondido, Imperial Beach, Lemon Grove, La Mesa, National City, Oceanside, Poway, San Diego, San Marcos, Solana Beach, Santee, Vista</keyword></placeKeys><dataChar><CharSetCd value="004"/></dataChar><tpCat><TopicCatCd value="013"/></tpCat><tpCat><TopicCatCd value="015"/></tpCat><tpCat><TopicCatCd value="017"/></tpCat></dataIdInfo><dqInfo><dqScope><scpLvl><ScopeCd value="005"/></scpLvl></dqScope><report type="DQQuanAttAcc"><measDesc>+/- 10 Feet</measDesc></report><dataLineage><prcStep><stepDesc>Dataset moved.</stepDesc><stepSrc type="used"><srcCitatn><resAltTitle>X:\San_Diego_Data\SD_County_2000</resAltTitle></srcCitatn></stepSrc></prcStep></dataLineage></dqInfo><spatRepInfo><VectSpatRep><geometObjs Name="Address_Points"><geoObjTyp><GeoObjTypCd value="004" Sync="TRUE"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs><topLvl><TopoLevCd value="001" Sync="TRUE"></TopoLevCd></topLvl></VectSpatRep></spatRepInfo><refSysInfo><RefSystem><refSysID><identCode code="2230" Sync="TRUE" value="2230"/><idCodeSpace Sync="TRUE">EPSG</idCodeSpace><idVersion Sync="TRUE">5.3(9.0.0)</idVersion></refSysID></RefSystem></refSysInfo><eainfo><detailed Name="Address_Points"><enttyp><enttypl Sync="TRUE">Address_Points</enttypl><enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">0</enttypc><enttypd>Address points with a corresponding Assessor Parcel Number (APN) for the County of San Diego, California, USA</enttypd><enttypds>SanGIS</enttypds></enttyp><attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">Esri</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl>ADDRUNIT</attrlabl><attrdef>Address unit number such as suite number,</attrdef><attrdefs>SanGIS</attrdefs><attalias Sync="TRUE">ADDRUNIT</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl>ADDRFRAC</attrlabl><attrdef>Fractional portion of address number (e.g. 1/2)</attrdef><attrdefs>SanGIS</attrdefs><attalias Sync="TRUE">ADDRFRAC</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">3</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl>Y_COORD</attrlabl><attrdef>Y or Northing coordinate, in feet, for address point placement location.  Coordinate system is California State Plane, NAD 83, Zone 6, US Survey Feet.</attrdef><attrdefs>SanGIS</attrdefs><attalias Sync="TRUE">Y_COORD</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl>APN</attrlabl><attrdef>Assessor Parcel Number (APN) - 10 digit</attrdef><attrdefs>SanGIS</attrdefs><attalias Sync="TRUE">APN</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl>ADDRJUR</attrlabl><attrdef>Official address jurisdiction.  The incorporated area where the address is located.
+
+Code; Jurisdiction
+CB; Carlsbad
+CN; County of San Diego (unincorporated area)
+CO; Coronado
+CV; Chula Vista
+DM; Del Mar
+EC; El Cajon
+EN; Encinitas
+ES; Escondido
+IB; Imperial Beach
+LG; Lemon Grove
+LM; La Mesa
+NC; National City
+OC; Oceanside
+PW; Poway
+SD; San Diego
+SM; San Marcos
+SO; Solana Beach
+ST; Santee
+VS; Vista
+</attrdef><attrdefs>SanGIS</attrdefs><attalias Sync="TRUE">ADDRJUR</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">2</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl>Shape</attrlabl><attrdef>Feature geometry.</attrdef><attrdefs>ESRI</attrdefs><attrdomv><udom>Coordinates defining the features.</udom></attrdomv><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl>ADDRNAME</attrlabl><attrdef>Official street or road name as assigned by the jurisdiction in which the road segment is located.  Abbreviated to 30 characters if official road name (not including pre- and post-direction and suffix) is more than 30 characters long.</attrdef><attrdefs>SanGIS</attrdefs><attalias Sync="TRUE">ADDRNAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">30</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl>USNG</attrlabl><attalias Sync="TRUE">USNG</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef>US National Grid full coordinate for actual point location.</attrdef><attrdefs>SanGIS</attrdefs></attr><attr><attrlabl>STATE</attrlabl><attalias Sync="TRUE">STATE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">2</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef>Two letter state code for address location.  All points are SITUS addresses in San Diego County therefore the STATE code should always be CA.  Assigned this value for all points with ASOURCE = S.  For points with ASOURCE = M, value is from Assessor's Master Property Record.</attrdef><attrdefs>SanGIS</attrdefs></attr><attr><attrlabl>X_COORD</attrlabl><attrdef>X or Easting coordinate, in feet, for address point placement location.  Coordinate system is California State Plane, NAD 83, Zone 6, US Survey Feet.</attrdef><attrdefs>SanGIS</attrdefs><attalias Sync="TRUE">X_COORD</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl>ROADSEGID</attrlabl><attrdef>Unique key to road segment in ROADS_ALL (and other ROAD) layers.  The unique road segment that the address falls on.  Used to determine road name values.  Will always be blank or null for points with ASOURCE = M</attrdef><attrdefs>SanGIS</attrdefs><attalias Sync="TRUE">ROADSEGID</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl>ADDRSFX</attrlabl><attrdef>Abbreviated street name suffix.  That is, the part of the road name that describes the type of street.  Four letter abbreviations are used according to the SanGIS standards manual as follows:
+
+ALY: ALLEY
+ARC: ARCADE
+AVE: AVENUE
+BP: BIKEPATH
+BLVD: BOULEVARD
+BRG: BRIDGE
+BYP: BYPASS
+CSWY: CAUSEWAY
+CIR: CIRCLE
+CTE: CORTE
+CT: COURT
+CV: COVE 
+CRES: CRESCENT
+XING: CROSSING
+DR: DRIVE
+DRWY: DRIVEWAY
+EXPY: EXPRESSWAY
+EXT: EXTENTION
+FRY: FERRY
+FWY: FREEWAY
+GLEN: GLEN
+HWY: HIGHWAY
+INTR: INTERCHANGE
+LN: LANE
+LOOP: LOOP
+MALL: MALL
+PKY: PARKWAY
+PASS: PASS
+PATH: PATH
+PL: PLACE
+PLZ: PLAZA
+PT: POINT
+PTE: POINTE
+RAMP: RAMP
+RD: ROAD
+ROW: ROW
+SQ: SQUARE
+ST: STREET
+TER: TERRACE
+TRL: TRAIL
+TKTL: TRUCKTRAIL
+WALK: WALK
+WAY: WAY</attrdef><attrdefs>SanGIS</attrdefs><attalias Sync="TRUE">ADDRSFX</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl>ADDRPOSTD</attrlabl><attalias Sync="TRUE">ADDRPOSTD</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">2</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef>Post direction of the road.  That is, the direction following the road name.
+N: North
+NE: Northwest
+NW: Northwest
+S: South
+SE: Southeast
+SW: Southwest
+E: East
+W: West</attrdef><attrdefs>SanGIS</attrdefs></attr><attr><attrlabl>ADDRPDIR</attrlabl><attrdef>Pre-direction of the road.  That is, the direction preceeding the road name.
+N: North
+NE: Northwest
+NW: Northwest
+S: South
+SE: Southeast
+SW: Southwest
+E: East
+W: West</attrdef><attrdefs>SanGIS</attrdefs><attalias Sync="TRUE">ADDRPDIR</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">2</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl>ADDRNMBR</attrlabl><attrdef>Address street number of the property.</attrdef><attrdefs>SanGIS</attrdefs><attalias Sync="TRUE">ADDRNMBR</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl>ASOURCE</attrlabl><attrdef>Address source code Domain
+Code; Description
+M; Assessor Master Property Record
+S; SanGIS
+</attrdef><attrdefs>SanGIS</attrdefs><attalias Sync="TRUE">ASOURCE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">1</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">PLACEMENT_</attrlabl><attalias Sync="TRUE">PLACEMENT_</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">1</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl>ADDRZIP</attrlabl><attrdef>Address ZIP code.  For points with ASOURCE = S this value is derived from an overlay of the ZIPCODE layers.  For points with ASOURCE = M the value is from the Assessor's Master Property Record.</attrdef><attrdefs>SanGIS</attrdefs><attalias Sync="TRUE">ADDRZIP</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">5</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ADDRESS_TY</attrlabl><attalias Sync="TRUE">ADDRESS_TY</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">1</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">ADDRAPNID</attrlabl><attalias Sync="TRUE">ADDRAPNID</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">25</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl>COMMUNITY</attrlabl><attalias Sync="TRUE">COMMUNITY</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">20</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdefs>SanGIS</attrdefs><attrdef>The common (but not necessarily the official) name of the community encompassed by the given zip code.  The name of the post office associated with the given zip code.  For points with ASOURCE = S, this is retrieved from the post office name in the ZIPCODE layer.  For ASOURCE = M points the name comes from the Master Property Recrod. </attrdef></attr><attr><attrlabl Sync="TRUE">ORIG_OID</attrlabl><attalias Sync="TRUE">ORIG_OID</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">PARCELID</attrlabl><attalias Sync="TRUE">PARCELID</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attscale Sync="TRUE">0</attscale><attrdef>SanGIS internal Parcel polygon ID number. Not a unique field.  Mulitple APNs may have the same parcel polygon identifier.</attrdef><attrdefs>SanGIS</attrdefs></attr></detailed><overview><eaover>This dataset contains address points within the County of San Diego. This dataset is under constant revision. The key field is Assessor Parcel Number (APN).  Other key attributes are (see individual attribute definitions for further details):  Placement_Location (Structure, Entrance, Centroid, Unknown, Review), Address_Type (e.g. Alias Address, Pole/Telephone/Meter/Power, State Property - this field is currently under development).  
+
+Address are provided in separate fields by five major address parts:  Number, pre-direction, street name, street type, post-direction</eaover><eadetcit>Additional information, if available, can be found on the SanGIS web site (www.sangis.org)</eadetcit></overview></eainfo><Binary><Thumbnail><Data EsriPropertyType="PictureX">/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a
+HBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIy
+MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCADIASwDAREA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD2W3nE
+q/7Q60CJgcHNAxx+9mgB1ABQBVe+shMYDdQCYfweYN35UWFdDDe2yzrCZ4/MYbgu4cikFx73EEab
+3mjVfUsAKAJ4mR41dGDKwyGU5BpjH0AFACdKAGkYOKAHL0oAWgAoAKACgAIz1oAQADpQAtABQAUA
+NJIb2oAQtu46UhCbf9oUAIRjuKAEoAKACgBQcGgCWmMD0oArz3PlAEANzg0CuNF/FjODn0oC4n26
+I8YIoC5YRwy5U5FAxetAjHikMThhTEaaSIwB3DmkUSN19qAF3UAOoA5T/hDYIJr++A+03s7l0MjE
+BfQcVfP0M/ZrV9THvvDt9CsO+CNpJf3e+OV8x85601JEODOE8QW2qQRSJFf/AGi3gLExqz5TDYJO
+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
+pDsWBtAwFAoAXI9KADigBduehFACbTQAlABQAUAFABQAudvPegBd+evSgBN2OlABuNABk0AYNMkK
+ACgAoAKACgAoAKACgAoAKACgC3p6/vi3oKBovg9jSGODFOlADwysOV2+4oAiZSp5OaAEoAkJG6gB
+BQA4fXpQAE5NACUAJnmgBaACgAoAM0ALuOO1ABkdxQAYz0oASgBQMDJoAQ8mgAoAKACgAoA//9kA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</Data></Thumbnail></Binary><spdoinfo><ptvctinf><esriterm Name="Address_Points"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom code="1" Sync="TRUE"></efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf></spdoinfo></metadata>
